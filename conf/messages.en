@@ -1,0 +1,39 @@
+title=Siddhujz Authentication
+
+account.successfully.validated=Account successfully validated
+
+confirm=Confirmation
+
+email=Email
+error.account.already.validated=Account already validated
+error.confirm=Confirmation failed
+error.email.already.exist=Email already exists
+error.sending.confirm.email=Error while sending confirmation mail
+error.sending.email=Error sending email
+error.technical=Technical Error, please Retry
+error.unknown.email=Unknown email
+
+login=Login
+logout=Logout
+
+mail.confirm.subject=Welcome to Siddhujz Authentication - Ask for confirmation
+mail.confirm.message=Welcome to Siddhujz Authentication. <br> Click on this link : {0} to confirm your email.
+mail.welcome.subject=Welcome to Siddhujz Authentication
+mail.welcome.message=Welcome to Siddhujz Authentication. <br> Your account is validated. Enjoy!
+
+name=Name
+
+password=Password
+
+reset=Reset
+register=Register
+register.success=You''ve registered successfully. Please check you email and follow the instructions to confirm your account.
+
+signup.signup=Sign Up
+user.home.title=Home
+
+validate=Validate
+
+you.have.been.logged.in=You''ve successfully logged in
+you.have.been.logged.out=You''ve been logged out
+

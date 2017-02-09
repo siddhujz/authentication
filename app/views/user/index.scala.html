@@ -1,0 +1,14 @@
+@(title: String, user: User)
+
+@scripts = {
+}
+
+@usermain(title, user, scripts) {
+    @if(flash.contains("success")) {
+    <p class="success">
+        @flash.get("success")
+    </p>
+    }
+
+<p>Hello User!</p>
+}

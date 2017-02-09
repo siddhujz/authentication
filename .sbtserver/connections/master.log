@@ -1,0 +1,46 @@
+New log file opened at Wed Feb 08 18:37:45 CST 2017 by 11088@DESKTOP-UK5G65I
+Taking next connection to: 53477
+New client attempting to connect on port: 53478-53477
+  Address = /192.168.126.2:53477
+This client on port 53478 has uuid 364e875b-245b-43c0-b38f-08bf179d7057 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-364e875b-245b-43c0-b38f-08bf179d7057
+Taking next connection to: 53477
+New client attempting to connect on port: 53796-53477
+  Address = /192.168.126.2:53477
+Handshake exception on socket: 53796
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 53477
+New client attempting to connect on port: 53797-53477
+  Address = /192.168.126.2:53477
+This client on port 53797 has uuid f86346f3-8a14-45bf-8c8e-6087bf44ccd4 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-364e875b-245b-43c0-b38f-08bf179d7057, play-fork-run-f86346f3-8a14-45bf-8c8e-6087bf44ccd4
+Taking next connection to: 53477
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53477
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53477
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 53477
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 11088@DESKTOP-UK5G65I logs at Wed Feb 08 18:51:47 CST 2017, goodbye.
